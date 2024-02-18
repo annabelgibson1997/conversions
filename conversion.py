@@ -16,20 +16,20 @@ num2 = 23
 num3 = 150
 string1 = "100"
 
-num1 = int(num1)
-num2 = float(num2)
-num3 = str(num3)
-string1 = int(string1)
+float_to_integer = int(num1)
+integer_to_float = float(num2)
+integer_to_string = str(num3)
+string_to_integer = int(string1)
 
-print(num1)
-print(num2)
-print(num3)
-print(string1)
+print(float_to_integer)
+print(integer_to_float)
+print(integer_to_string)
+print(string_to_integer)
 
-print(type(num1))
-print(type(num2))
-print(type(num3))
-print(type(string1))
+print(type(float_to_integer))
+print(type(integer_to_float))
+print(type(integer_to_string))
+print(type(string_to_integer))
 #I understand this final part wasn't in the task.
 #However, I wanted to understand if I had done the task correctly.
 #Hope this is okay.
